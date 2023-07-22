@@ -1,0 +1,41 @@
+﻿KEYWORDS:
+	(use <filename>)                     : Includes file <filename>
+	(def <def> <val>)                    : Creates a definition of <def> to <val>
+	(mac <name> (def <args...>) <do...>) : Creates a new macro with name <name> and args <args...>, which does <do...>
+	(con <assembly-code>)                : Contains assebly, and also can be like "do" block
+		
+DEFCODE:
+	[uX]                             : makes all changeable definitions inside of unsigned Xbit value
+	[sX]                             : makes all changeable definitions inside of signed Xbit value
+	[=>]                             : shows, that something should be retuned
+	[^ <def>]                        : preexpands the definition
+	[++ <def>]                       : increases <def>'s value by 1
+	[-- <def>]                       : decreases <def>'s value by 1
+	[% <def>]                        : temp will be placed when unnesting
+	[? <def> <then> <else>]          : if <def> exist then <then> elsewise <else>
+	[$ <def> <texts...>]             : concats one or more texts and stores into <def>
+	[! <error-text>]                 : shows error text and breaks the compilation
+	[& <anything>]                   : appends <anything> to the end of the contents
+	[== <def1> <def2> <then> <else>] : if <def1> == <def2> => <then> elsewise <else>
+
+
+?:
+[ll] [hl] - expanding nesting
+[remove <anything>]
+[allow <precode>]
+[hex] [binary] [decimal] [quarternary] [ternary]
+[+ <def1>:<def2>] [+ <def1>:<const>]
+[- <def1>:<def2>] [- <def1>:<const>]
+[* <def1>:<def2>] [* <def1>:<const>]
+[/ <def1>:<def2>] [/ <def1>:<const>]
+[start <assembly>] [pre]
+[asm <name> <val>]
+[for <def> <start> <end> <step> <do>]
+[ifeq <def1> <def2>]
+[ifls <def1> <def2>]
+[ifgr <def1> <def2>]
+[ifle <def1> <def2>]
+[ifge <def1> <def2>]
+[ifne <def1> <def2>]
+[undef] [unmac] [if mac exist] [repeat]
+	[# <def> <then> <else>] : if <def> is definition then <then> elsewise <else>

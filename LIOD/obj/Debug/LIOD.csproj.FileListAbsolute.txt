@@ -1,0 +1,11 @@
+C:\Users\gym12\source\repos\RaycastingEditor\RaycastingEditor\bin\Debug\LIOD\LIOD.exe.config
+C:\Users\gym12\source\repos\RaycastingEditor\RaycastingEditor\bin\Debug\LIOD\LIOD.exe
+C:\Users\gym12\source\repos\RaycastingEditor\RaycastingEditor\bin\Debug\LIOD\LIOD.pdb
+C:\Users\gym12\source\repos\RaycastingEditor\LIOD\obj\Debug\LIOD.csproj.AssemblyReference.cache
+C:\Users\gym12\source\repos\RaycastingEditor\LIOD\obj\Debug\LIOD.csproj.SuggestedBindingRedirects.cache
+C:\Users\gym12\source\repos\RaycastingEditor\LIOD\obj\Debug\LIOD.csproj.CoreCompileInputs.cache
+C:\Users\gym12\source\repos\RaycastingEditor\LIOD\obj\Debug\LIOD.exe
+C:\Users\gym12\source\repos\RaycastingEditor\LIOD\obj\Debug\LIOD.pdb
+C:\Users\gym12\source\repos\RaycastingEditor\LIOD\bin\Debug\LIOD.exe.config
+C:\Users\gym12\source\repos\RaycastingEditor\LIOD\bin\Debug\LIOD.exe
+C:\Users\gym12\source\repos\RaycastingEditor\LIOD\bin\Debug\LIOD.pdb
